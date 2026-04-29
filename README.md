@@ -2,22 +2,53 @@
 
 Web authoring tool for geo-referenced XR environments and guided tours.
 
-## Purpose
+## Repository Layout
 
-Define real-world locations as 3D scenes, populate them with totems, points of interest and ordered tour stops, then publish for XR consumption.
+```
+eurekafrontend/   React SPA — 3D XR Studio authoring UI
+eurekabackend/    Node.js / Express API — persistence and orchestration
+tools/            Build & maintenance utilities
+```
 
-## Core Features
+## Features
 
-* **Environments**: geo-referenced scenes managed on an interactive map (lat/lon + local Cartesian coordinates).
-* **Totems**: anchored 3D objects placed within an environment, with custom transforms and media bindings.
-* **POIs**: points of interest with descriptions, media attachments and relative 3D placement.
-* **Tour routes**: ordered sequences of stops over an environment for guided navigation.
-* **3D preview**: in-browser inspection of imported meshes and scene composition.
-* **Localization**: it / en.
+- Geo-referenced environments with map-based authoring (lat/lon + local Cartesian coordinates).
+- Totems, points of interest and ordered tour stops as scene primitives.
+- In-browser 3D preview of imported meshes.
+- JWT-based authentication, per-user ownership of resources.
+- Localization: it / en (extendable).
 
 ## Stack
 
-* Frontend: React SPA, React Router, axios, Three.js for previews, Leaflet/map layer.
-* Backend: Node.js / Express with SQL persistence.
-* Authentication: JWT.
+- **Frontend**: React, React Router, axios, Three.js, Leaflet (Vite build).
+- **Backend**: Node.js, Express, SQL persistence, JWT auth.
+- **3D inference (optional)**: external TRELLIS service for image-to-3D, orchestrated through an internal job queue.
 
+## Quick Start
+
+### Backend
+
+```bash
+cd eurekabackend
+cp .env.example .env       # fill in DB / JWT / TRELLIS settings
+npm install
+npm start
+```
+
+### Frontend
+
+```bash
+cd eurekafrontend
+npm install
+npm run dev                # development
+npm run build              # production bundle (output: dist/, not tracked)
+```
+
+## Configuration
+
+Backend reads its configuration from `eurekabackend/.env` (see `.env.example` for the full list of variables: DB connection, `JWT_SECRET`, `TRELLIS_API_URL`, upload paths).
+
+## Notes
+
+- 3D asset generation is provided by a companion application (AI 3D Builder), out of scope for this repository.
+- Build artifacts (`dist/`, `build/`) and runtime data (`uploads/`, `data/`) are not versioned.
