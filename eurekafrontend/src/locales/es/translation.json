@@ -1,0 +1,621 @@
+{
+  "login": {
+    "title": "Iniciar sesión en SWING 3D-XR Studio",
+    "button": {
+      "egi": "Sign-in with EGI Check-in",
+      "submit": "Iniciar sesión"
+    },
+    "caption": {
+      "egi": "Acceso seguro a través de instituciones académicas y sociales"
+    },
+    "divider": {
+      "or": "o"
+    },
+    "section": {
+      "traditional": "Inicio de sesión tradicional"
+    },
+    "field": {
+      "username": "Usuario",
+      "password": "Contraseña"
+    },
+    "loading": "Cargando...",
+    "errors": {
+      "egiCheckin_withMsg": "Error de EGI Check-in: {{error}}",
+      "egiAuth": "Error durante la autenticación de EGI Check-in",
+      "invalidCredentials": "Credenciales no válidas"
+    }
+  },
+  "profile": {
+    "title": "Editar perfil",
+    "field": {
+      "username": "Usuario",
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "role": "Rol",
+      "password": {
+        "current": "Contraseña actual",
+        "newOptional": "Nueva contraseña (opcional)"
+      }
+    },
+    "role": {
+      "admin": "Administrador",
+      "editor": "Editor",
+      "viewer": "Visualizador"
+    },
+    "button": {
+      "saveChanges": "Guardar cambios"
+    },
+    "alerts": {
+      "needCurrentForNew": "Para cambiar la contraseña, introduce la contraseña actual.",
+      "updateSuccess": "¡Perfil actualizado con éxito!",
+      "updateError": "Error al actualizar el perfil."
+    }
+  },
+  "userForm": {
+    "title": {
+      "edit": "Editar usuario",
+      "create": "Crear nuevo usuario"
+    },
+    "field": {
+      "username": "Usuario",
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "role": "Rol"
+    },
+    "role": {
+      "admin": "Administrador",
+      "editor": "Editor",
+      "viewer": "Visualizador"
+    },
+    "button": {
+      "createUser": "Crear usuario",
+      "saveChanges": "Guardar cambios",
+      "resetPasswordDefault": "Restablecer contraseña a \"password123\""
+    },
+    "alerts": {
+      "updateSuccess": "Usuario actualizado con éxito",
+      "createSuccess": "Usuario creado con éxito (Contraseña por defecto: password123)",
+      "saveError": "Se ha producido un error. Inténtalo de nuevo.",
+      "resetSuccess": "Contraseña restablecida a \"password123\"",
+      "resetError": "Error al restablecer la contraseña. Inténtalo de nuevo."
+    }
+  },
+  "home": {
+    "title": "🌍 Lista de entornos 3D",
+    "table": {
+      "name": "Nombre",
+      "coordinates": "Coordenadas",
+      "objectCount": "Número de objetos",
+      "createdBy": "Creado por",
+      "actions": "Acciones"
+    },
+    "button": {
+      "open": "🌍 Abrir",
+      "delete": "⌫ Eliminar",
+      "createEnvironment": "➕ Crear nuevo entorno"
+    },
+    "coordsLine": "Lat: {{lat}}, Long: {{long}}"
+  },
+  "environmentForm": {
+    "alert": {
+      "coords": "Coordenadas: {{lng}}, {{lat}}"
+    },
+    "prompt": {
+      "poiName": "Nombre del POI:"
+    },
+    "route": {
+      "stopLabel": "Parada {{n}}"
+    },
+    "errors": {
+      "routeModeActivation": "Error al activar el modo ruta",
+      "poiCreate": "Error al crear POI",
+      "stopUpdatePosition": "Error al actualizar la posición de la parada",
+      "poiUpdatePosition": "Error al actualizar la posición del POI"
+    }
+  },
+  "environmentBasicForm": {
+    "title": {
+      "create": "Crear nuevo entorno",
+      "edit": "Editar entorno"
+    },
+    "loading": "Cargando...",
+    "fields": {
+      "name": "Nombre del entorno",
+      "longitude": "Longitud",
+      "latitude": "Latitud",
+      "surface": "Superficie (4 coordenadas)",
+      "topLeft": "Superior izquierda",
+      "topRight": "Superior derecha",
+      "bottomLeft": "Inferior izquierda",
+      "bottomRight": "Inferior derecha"
+    },
+    "buttons": {
+      "create": "Crear entorno",
+      "save": "Guardar cambios",
+      "cancel": "Cancelar",
+      "saving": "Guardando...",
+      "defineOnMap": "Definir en el Mapa",
+      "mapModeActive": "Modo Mapa Activo"
+    },
+    "surfaceMode": {
+      "hint": "Modo activo: Haz clic en un campo de coordenadas, luego haz clic en el mapa para introducir las coordenadas.",
+      "selectedVertex": "Vértice seleccionado: {{vertex}}"
+    },
+    "errors": {
+      "load": "Error al cargar los datos del entorno",
+      "save": "Error al guardar el entorno"
+    }
+  },
+  "poiManager": {
+    "title": "POI: Puntos de interés",
+    "table": {
+      "name": "Nombre",
+      "lat": "Lat",
+      "lng": "Lng",
+      "media": "Multimedia",
+      "actions": "Acciones"
+    },
+    "empty": "Ningún POI. Activa el modo POI y haz clic en el mapa para añadir puntos de interés.",
+    "dialog": {
+      "editTitle": "Editar POI: {{label}}",
+      "info": "Información del POI",
+      "name": "Nombre del POI",
+      "description": "Descripción",
+      "descriptionPlaceholder": "Descripción detallada del POI...",
+      "saveInfo": "Guardar información",
+      "translations": {
+        "title": "Nombre y Descripción del POI",
+        "saveLanguage": "Guardar {{lang}}"
+      },
+      "media": {
+        "sectionTitle": "Multimedia ({{count}})",
+        "add": "Añadir multimedia",
+        "edit": "Editar multimedia",
+        "new": "Añadir nuevo multimedia",
+        "update": "Actualizar multimedia",
+        "cancel": "Cancelar",
+        "title": "Título (opcional)",
+        "titlePlaceholder": "Título descriptivo del multimedia",
+        "url": "URL",
+        "urlPlaceholder": "https://...",
+        "urlOptional": "URL (opcional, ignora si has subido un archivo)",
+        "youtubePlaceholder": "https://www.youtube.com/watch?v=...",
+        "youtubeHelper": "Solo se admiten URLs de YouTube",
+        "optionalWithFile": "Campo opcional si has subido un archivo",
+        "imagePlaceholder": "https://ejemplo.com/imagen.jpg",
+        "audioPlaceholder": "https://ejemplo.com/audio.mp3",
+        "language": "Idioma",
+        "content": "Contenido de Texto",
+        "contentPlaceholder": "Introduce el contenido textual...",
+        "contentHelper": "Contenido principal para el tipo de media 'Texto'",
+        "uploadOrUrl": "Subir imagen o introducir URL",
+        "uploadAudioOrUrl": "Subir archivo de audio o introducir URL",
+        "chooseFile": "Elegir Archivo",
+        "fileSelected": "Archivo seleccionado. Deja el campo URL vacío para usar el archivo subido.",
+        "noContent": "Sin contenido",
+        "audioNotSupported": "Tu navegador no soporta el elemento de audio.",
+        "imageNotAvailable": "Imagen no disponible",
+        "type": {
+          "label": "Tipo",
+          "image": "Imagen",
+          "video": "Vídeo (YouTube)",
+          "audio": "Audio",
+          "text": "Texto",
+          "link": "Enlace",
+          "other": "Otro"
+        },
+        "uploading": "Subiendo...",
+        "processing": "Procesando archivo en el servidor...",
+        "noneTitle": "Ningún multimedia asociado a este POI",
+        "noneSubtitle": "Añade imágenes, vídeos de YouTube, audio o contenido textual para enriquecer la experiencia"
+      }
+    },
+    "confirm": {
+      "deletePoi": "¿Eliminar este POI?",
+      "deleteMedia": "¿Eliminar este multimedia?"
+    },
+    "errors": {
+      "maxMedia": "Límite de multimedia alcanzado",
+      "addMedia": "Error al añadir multimedia al POI",
+      "updateMedia": "Error al actualizar multimedia",
+      "deleteMedia": "Error al eliminar multimedia",
+      "duplicateTypeLang": "Ya existe un media de tipo {{type}} para el idioma {{lang}}"
+    },
+    "buttons": {
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "open": "Abrir",
+      "close": "Cerrar"
+    },
+    "alerts": {
+      "loadError": "Error al cargar los POI",
+      "updateError": "Error al actualizar el nombre del POI",
+      "deleteError": "Error al eliminar el POI",
+      "updateSuccess": "¡Información del POI actualizada con éxito!",
+      "updateFail": "Error al actualizar el POI.",
+      "translationSaveSuccess": "¡Traducción guardada con éxito!",
+      "translationSaveFail": "Error al guardar la traducción.",
+      "englishLabelRequired": "El nombre en inglés es obligatorio."
+    }
+  },
+  "routeManager": {
+    "title": "Ruta: Paradas",
+    "table": {
+      "label": "Etiqueta",
+      "lat": "Lat",
+      "lng": "Lng",
+      "order": "Orden",
+      "actions": "Acciones"
+    },
+    "routeStops": "parada(s) en la ruta",
+    "empty": "Ninguna parada. Activa el modo ruta y haz clic en el mapa para añadir paradas.",
+    "dialog": {
+      "editTitle": "Editar parada #{{n}}",
+      "info": "Información de la parada",
+      "name": "Nombre de la parada",
+      "description": "Descripción"
+    },
+    "buttons": {
+      "close": "Cerrar"
+    },
+    "alerts": {
+      "loadError": "Error al cargar la ruta",
+      "updateError": "Error al actualizar la parada",
+      "deleteError": "Error al eliminar la parada",
+      "updateSuccess": "¡Información de la parada actualizada con éxito!",
+      "updateFail": "Error al actualizar la parada."
+    }
+  },
+  "mapObjectManager": {
+    "title": "Objetos posicionados",
+    "table": {
+      "name": "Nombre",
+      "model": "Modelo 3D",
+      "position": "Posición (X,Y,Z)",
+      "rotation": "Rotación",
+      "scale": "Escala",
+      "actions": "Acciones"
+    },
+    "objectsCount": "objeto(s) colocados en el mapa",
+    "empty": "Ningún objeto 3D colocado en el mapa.\nActiva el modo \"objetos 3D\" y haz clic derecho en el mapa para colocarlos.",
+    "dialog": {
+      "placeTitle": "Colocar objeto 3D en el mapa",
+      "editTitle": "Editar objeto 3D en el mapa",
+      "fields": {
+        "modelSelect": "Seleccionar modelo 3D",
+        "model": "Modelo 3D",
+        "name": "Nombre en el mapa",
+        "namePlaceholder": "Introduce nombre del objeto...",
+        "posX": "Posición X (longitud)",
+        "posY": "Posición Y (latitud)",
+        "posZ": "Posición Z",
+        "rotationX": "Rotación X (grados)",
+        "rotationY": "Rotación Y (grados)",
+        "rotationZ": "Rotación Z (grados)",
+        "scaleX": "Escala X",
+        "scaleY": "Escala Y",
+        "scaleZ": "Escala Z",
+        "position": "Posición (X,Y,Z)",
+        "rotationSection": "Rotación (grados)",
+        "scaleSection": "Escala"
+      }
+    },
+    "buttons": {
+      "place": "Colocar objeto",
+      "placing": "Colocando...",
+      "save": "Guardar cambios",
+      "update": "Actualizar",
+      "cancel": "Cancelar",
+      "saving": "Guardando..."
+    },
+    "confirm": {
+      "deleteObject": "¿Eliminar este objeto 3D del mapa?"
+    },
+    "errors": {
+      "load": "Error al cargar los objetos colocados",
+      "save": "Error al colocar objeto",
+      "update": "Error al actualizar objeto",
+      "delete": "Error al eliminar objeto"
+    }
+  },
+  "modeControls": {
+    "title": "Modos de edición",
+    "enableClick": {
+      "label": "Habilitar clic en el mapa (insertar objetos 3D)",
+      "hint": "Clic izquierdo para colocar, clic derecho para configurar objetos"
+    },
+    "objectMode": {
+      "label": "Modo objetos 3D",
+      "hint": "Clic derecho en el mapa para colocar un objeto 3D"
+    },
+    "routeMode": {
+      "label": "Modo ruta",
+      "loading": "Cargando ruta...",
+      "hint": "Haz clic en el mapa para añadir paradas a la ruta turística"
+    },
+    "poiMode": {
+      "label": "Modo POI",
+      "loading": "Cargando POI...",
+      "hint": "Haz clic en el mapa para añadir puntos de interés"
+    },
+    "totemMode": {
+      "label": "Totem",
+      "loading": "Cargando Totems...",
+      "hint": "Haz clic en el mapa para colocar totems"
+    },
+    "generalHint": "Consejo: Los modos son exclusivos. Activa un modo a la vez para editar el mapa."
+  },
+  "envObjectsManager": {
+    "title": "Biblioteca 3D",
+    "table": {
+      "name": "Nombre",
+      "url": "URL",
+      "format": "Formato",
+      "actions": "Acciones"
+    },
+    "buttons": {
+      "add": "Añadir objeto 3D",
+      "cancel": "Cancelar",
+      "create": "Crear",
+      "save": "Guardar",
+      "saving": "Guardando..."
+    },
+    "empty": "Ningún objeto 3D disponible. Haz clic en \"Añadir objeto 3D\" para empezar.",
+    "dialog": {
+      "addTitle": "Añadir objeto 3D",
+      "editTitle": "Editar objeto 3D",
+      "name": "Nombre",
+      "urlDownload": "URL de descarga",
+      "fileUpload": "Subir archivo 3D",
+      "fileUploadKeep": "Subir archivo 3D (Deja vacío para mantener el archivo actual)",
+      "selectFile": "Seleccionar archivo",
+      "selectedFile": "Archivo seleccionado: {{filename}}",
+      "supportedFormats": "Formatos soportados: GLB, GLTF, OBJ, FBX (máx 50MB)",
+      "preview": {
+        "title": "Vista previa",
+        "none": "No hay vista previa disponible",
+        "notAvailable": "Vista previa no disponible para este formato"
+      }
+    },
+    "confirm": {
+      "delete": "¿Estás seguro de que deseas eliminar este objeto 3D? Esta acción no se puede deshacer."
+    },
+    "errors": {
+      "load": "Error al cargar los objetos 3D",
+      "save": "Error al guardar objeto 3D",
+      "delete": "Error al eliminar objeto 3D"
+    }
+  },
+  "userManagement": {
+    "title": "Gestión de usuarios",
+    "button": {
+      "createUser": "➕ Crear nuevo usuario",
+      "edit": "Editar",
+      "delete": "Eliminar"
+    },
+    "table": {
+      "id": "ID",
+      "username": "Usuario",
+      "lastname": "Apellido",
+      "firstname": "Nombre",
+      "role": "Rol",
+      "actions": "Acciones"
+    },
+    "errors": {
+      "fetch": "Error al recuperar usuarios",
+      "delete": "Error al eliminar usuario"
+    }
+  },
+  "mapComponent": {
+    "modes": {
+      "objectModeLegacy": "Modo objetos 3D (Legacy)",
+      "objectMode": "Modo objetos 3D",
+      "routeMode": "Modo ruta",
+      "poiMode": "Modo POI",
+      "totemMode": "Modo Totem"
+    },
+    "viewModes": {
+      "3d": "3D",
+      "satellite": "Satélite",
+      "view3D": "Vista 3D",
+      "viewSatellite": "Vista satélite"
+    },
+    "loadingModels": "Cargando modelos 3D..."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "yes": "Sí",
+    "no": "No",
+    "actions": "Acciones",
+    "name": "Nombre",
+    "description": "Descripción",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "profile": "Perfil",
+    "users": "Usuarios",
+    "logout": "Cerrar sesión",
+    "language": "Idioma",
+    "userManagement": "Gestión de Usuarios",
+    "totemManagement": "Gestión de Totems"
+  },
+  "tourPlanner": {
+    "title": "Planificar Ruta",
+    "route": "Ruta:",
+    "noTitle": "(sin título)",
+    "stops": "paradas",
+    "newRoute": "Nueva ruta",
+    "modeOn": "Modo ruta: ON",
+    "modeOff": "Modo ruta: OFF",
+    "addStopTest": "+ Parada (test)",
+    "saving": "Guardando…",
+    "saveRoute": "Guardar ruta",
+    "clearDraft": "Vaciar borrador",
+    "stopDetails": "Detalles de la parada seleccionada",
+    "extendedDescription": "Descripción extendida",
+    "mediaUrl": "URL Media (imagen/video)",
+    "saveStop": "Guardar parada",
+    "close": "Cerrar",
+    "selectRow": "Selecciona una fila para editar la parada.",
+    "error": "Error:",
+    "unsavedChanges": "Cambios no guardados.",
+    "allSaved": "Todo guardado (ruta #{{id}}).",
+    "moveUp": "↑ arriba",
+    "moveDown": "↓ abajo",
+    "delete": "Eliminar",
+    "zoom": "Zoom",
+    "empty": "Sin paradas. Activa el Modo ruta y haz clic en el mapa, o usa \"+ Parada (test)\".",
+    "table": {
+      "label": "Etiqueta",
+      "lat": "Lat",
+      "lng": "Lng",
+      "actions": "Acciones"
+    },
+    "hint": {
+      "clickMap": "Clic en el mapa para añadir paradas",
+      "addDebug": "Añade una parada cerca del centro del mapa (debug)",
+      "clearDraft": "Limpia el borrador local (no elimina la ruta publicada)"
+    },
+    "placeholder": {
+      "label": "ej. Entrada principal",
+      "description": "Texto que describe la parada…"
+    },
+    "status": {
+      "routeInfo": "Ruta: {{title}} • {{count}} paradas",
+      "newRouteInfo": "Nueva ruta • {{count}} paradas"
+    }
+  },
+  "totemManagement": {
+    "title": "Gestión de Totems",
+    "button": {
+      "createTotem": "Crear Nuevo Totem",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "assign": "Asignar",
+      "changeAssignment": "Cambiar Asignación"
+    },
+    "table": {
+      "serialCode": "Código Serie",
+      "label": "Etiqueta",
+      "assignedTo": "Asignado A",
+      "environment": "Ambiente",
+      "position": "Posición",
+      "actions": "Acciones"
+    },
+    "filter": {
+      "all": "Todos",
+      "unassigned": "Sin Asignar",
+      "unpositioned": "Sin Posicionar"
+    },
+    "search": "Buscar totems...",
+    "notAssigned": "Sin asignar",
+    "noTotems": "No se encontraron totems",
+    "modal": {
+      "assignTotem": "Asignar Totem",
+      "changeAssignment": "Cambiar Asignación",
+      "totem": "Totem",
+      "selectEditor": "Seleccionar Editor",
+      "noAssignment": "Sin asignación (revocar)",
+      "warningPositioned": "Atención: este totem ya está posicionado en un ambiente. Al cambiar la asignación, se eliminará el posicionamiento.",
+      "assign": "Asignar",
+      "revoke": "Revocar Asignación"
+    },
+    "confirm": {
+      "delete": "¿Estás seguro de que deseas eliminar este totem?"
+    },
+    "alerts": {
+      "loadError": "Error al cargar los totems",
+      "deleteError": "Error al eliminar el totem",
+      "assignError": "Error al asignar el totem"
+    }
+  },
+  "totemForm": {
+    "title": {
+      "create": "Crear Nuevo Totem",
+      "edit": "Editar Totem"
+    },
+    "field": {
+      "serialCode": "Código Serie",
+      "label": "Etiqueta"
+    },
+    "placeholder": {
+      "serialCode": "Ej: ABC123XYZ0",
+      "label": "Etiqueta descriptiva (opcional)"
+    },
+    "helper": {
+      "serialCode": "10 caracteres alfanuméricos mayúsculas. Deja vacío para generación automática."
+    },
+    "qrPreview": "Vista Previa Código QR",
+    "info": {
+      "title": "Información del Totem",
+      "assignedTo": "Asignado A",
+      "notAssigned": "Sin asignar",
+      "environment": "Ambiente",
+      "notPositioned": "Sin posicionar",
+      "coordinates": "Coordenadas",
+      "createdAt": "Creado el"
+    },
+    "button": {
+      "createTotem": "Crear Totem",
+      "saveChanges": "Guardar Cambios"
+    },
+    "alerts": {
+      "loadError": "Error al cargar el totem",
+      "invalidSerialCode": "El código serie debe tener 10 caracteres alfanuméricos mayúsculas",
+      "createSuccess": "¡Totem creado con éxito! Código serie: {{serialCode}}",
+      "updateSuccess": "¡Totem actualizado con éxito!",
+      "saveError": "Error al guardar el totem"
+    }
+  },
+  "totemManager": {
+    "title": "Gestión de Totems",
+    "availableTotems": "Totems Disponibles",
+    "positionedTotems": "Totems Posicionados",
+    "noAvailableTotems": "No hay totems disponibles para este ambiente",
+    "noPositionedTotems": "No hay totems posicionados en este ambiente",
+    "selectToPosition": "Selecciona un totem para posicionar",
+    "manualPosition": "Posicionar Manualmente",
+    "removePosition": "Eliminar Posición",
+    "serialCode": "Código Serie",
+    "label": "Etiqueta",
+    "coordinates": "Coordenadas",
+    "qrPreview": "Vista Previa Código QR",
+    "downloadImage": "Descargar Imagen",
+    "downloadPdf": "Descargar PDF",
+    "downloadAllPdf": "Exportar todos los QR en PDF",
+    "alerts": {
+      "loadError": "Error al cargar los totems",
+      "positionSuccess": "Totem posicionado con éxito",
+      "positionError": "Error al posicionar el totem",
+      "removeSuccess": "Posición eliminada",
+      "removeError": "Error al eliminar la posición"
+    },
+    "confirm": {
+      "removePosition": "¿Eliminar el posicionamiento de este totem?"
+    },
+    "form": {
+      "latitude": "Latitud",
+      "longitude": "Longitud",
+      "submit": "Posicionar",
+      "cancel": "Cancelar"
+    }
+  },
+  "legal": {
+    "terms": "Términos de Uso",
+    "privacy": "Política de Privacidad"
+  },
+  "globalLoading": {
+    "loading": "Cargando...",
+    "retrying": "Reconectando al servidor...",
+    "retryHint": "El servidor está temporalmente ocupado. Reintento automático en curso..."
+  }
+}

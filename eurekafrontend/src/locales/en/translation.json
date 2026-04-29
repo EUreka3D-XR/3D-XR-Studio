@@ -1,0 +1,624 @@
+{
+  "login": {
+    "title": "Login to SWING 3D-XR Studio",
+    "button": {
+      "egi": "Sign-in with EGI Check-in",
+      "submit": "Login"
+    },
+    "caption": {
+      "egi": "Secure access via academic and social institutions"
+    },
+    "divider": {
+      "or": "or"
+    },
+    "section": {
+      "traditional": "Traditional Login"
+    },
+    "field": {
+      "username": "Username",
+      "password": "Password"
+    },
+    "loading": "Loading...",
+    "errors": {
+      "egiCheckin_withMsg": "EGI Check-in Error: {{error}}",
+      "egiAuth": "Error during EGI Check-in authentication",
+      "invalidCredentials": "Invalid credentials"
+    }
+  },
+  "profile": {
+    "title": "Edit Profile",
+    "field": {
+      "username": "Username",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "role": "Role",
+      "password": {
+        "current": "Current Password",
+        "newOptional": "New Password (optional)"
+      }
+    },
+    "role": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "button": {
+      "saveChanges": "Save Changes"
+    },
+    "alerts": {
+      "needCurrentForNew": "To change the password, enter your current password.",
+      "updateSuccess": "Profile updated successfully!",
+      "updateError": "Error updating profile."
+    }
+  },
+  "userForm": {
+    "title": {
+      "edit": "Edit User",
+      "create": "Create New User"
+    },
+    "field": {
+      "username": "Username",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "role": "Role"
+    },
+    "role": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "button": {
+      "createUser": "Create User",
+      "saveChanges": "Save Changes",
+      "resetPasswordDefault": "Reset Password to \"password123\""
+    },
+    "alerts": {
+      "updateSuccess": "User updated successfully",
+      "createSuccess": "User created successfully (Default password: password123)",
+      "saveError": "An error occurred. Please try again.",
+      "resetSuccess": "Password reset to \"password123\"",
+      "resetError": "Error resetting password. Please try again."
+    }
+  },
+  "home": {
+    "title": "🌍 List of 3D Environments",
+    "table": {
+      "name": "Name",
+      "coordinates": "Coordinates",
+      "objectCount": "Objects Count",
+      "createdBy": "Created By",
+      "actions": "Actions"
+    },
+    "button": {
+      "open": "🌍 Open",
+      "delete": "⌫ Delete",
+      "createEnvironment": "➕ Create New Environment"
+    },
+    "coordsLine": "Lat: {{lat}}, Long: {{long}}"
+  },
+  "environmentForm": {
+    "alert": {
+      "coords": "Coordinates: {{lng}}, {{lat}}"
+    },
+    "prompt": {
+      "poiName": "POI Name:"
+    },
+    "route": {
+      "stopLabel": "Stop {{n}}"
+    },
+    "errors": {
+      "routeModeActivation": "Error activating route mode",
+      "poiCreate": "Error creating POI",
+      "stopUpdatePosition": "Error updating stop position",
+      "poiUpdatePosition": "Error updating POI position"
+    }
+  },
+  "environmentBasicForm": {
+    "title": {
+      "create": "Create New Environment",
+      "edit": "Edit Environment"
+    },
+    "loading": "Loading...",
+    "fields": {
+      "name": "Environment Name",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "surface": "Surface (4 coordinates)",
+      "topLeft": "Top Left",
+      "topRight": "Top Right",
+      "bottomLeft": "Bottom Left",
+      "bottomRight": "Bottom Right"
+    },
+    "buttons": {
+      "create": "Create Environment",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "defineOnMap": "Define on Map",
+      "mapModeActive": "Map Mode Active"
+    },
+    "surfaceMode": {
+      "hint": "Mode active: Click on a coordinate field, then click on the map to enter coordinates.",
+      "selectedVertex": "Selected vertex: {{vertex}}"
+    },
+    "errors": {
+      "load": "Error loading environment data",
+      "save": "Error saving environment"
+    }
+  },
+  "poiManager": {
+    "title": "POI: Points of Interest",
+    "table": {
+      "name": "Name",
+      "lat": "Lat",
+      "lng": "Lng",
+      "media": "Media",
+      "actions": "Actions"
+    },
+    "empty": "No POI. Enable POI Mode and click on the map to add points of interest.",
+    "dialog": {
+      "editTitle": "Edit POI: {{label}}",
+      "info": "POI Information",
+      "name": "POI Name",
+      "description": "Description",
+      "descriptionPlaceholder": "Detailed description of the POI...",
+      "saveInfo": "Save Information",
+      "translations": {
+        "title": "POI Name and Description",
+        "saveLanguage": "Save {{lang}}"
+      },
+      "media": {
+        "sectionTitle": "Media ({{count}})",
+        "add": "Add Media",
+        "edit": "Edit Media",
+        "new": "Add New Media",
+        "update": "Update Media",
+        "cancel": "Cancel",
+        "title": "Title (optional)",
+        "titlePlaceholder": "Descriptive media title",
+        "url": "URL",
+        "urlPlaceholder": "https://...",
+        "urlOptional": "URL (optional, ignore if you uploaded a file)",
+        "youtubePlaceholder": "https://www.youtube.com/watch?v=... or direct video URL",
+        "youtubeHelper": "Supports YouTube URLs or direct video file links",
+        "optionalWithFile": "Optional if you uploaded a file",
+        "imagePlaceholder": "https://example.com/image.jpg",
+        "audioPlaceholder": "https://example.com/audio.mp3",
+        "language": "Language",
+        "content": "Text Content",
+        "contentPlaceholder": "Enter text content...",
+        "contentHelper": "Main content for 'Text' media type",
+        "uploadOrUrl": "Upload image or enter URL",
+        "uploadAudioOrUrl": "Upload audio file or enter URL",
+        "uploadVideoOrUrl": "Upload video file or enter URL",
+        "videoPlaceholder": "https://example.com/video.mp4",
+        "videoNotSupported": "Your browser does not support the video element.",
+        "chooseFile": "Choose File",
+        "fileSelected": "File selected. Leave URL field empty to use the uploaded file.",
+        "noContent": "No content",
+        "audioNotSupported": "Your browser does not support the audio element.",
+        "imageNotAvailable": "Image not available",
+        "type": {
+          "label": "Type",
+          "image": "Image",
+          "video": "Video",
+          "audio": "Audio",
+          "text": "Text",
+          "link": "Link",
+          "other": "Other"
+        },
+        "uploading": "Uploading...",
+        "processing": "Processing file on server...",
+        "noneTitle": "No media associated with this POI",
+        "noneSubtitle": "Add images, videos, audio or text content to enrich the experience"
+      }
+    },
+    "confirm": {
+      "deletePoi": "Delete this POI?",
+      "deleteMedia": "Delete this media?"
+    },
+    "errors": {
+      "maxMedia": "Media limit reached",
+      "addMedia": "Error adding media to POI",
+      "updateMedia": "Error updating media",
+      "deleteMedia": "Error deleting media",
+      "duplicateTypeLang": "A {{type}} media already exists for language {{lang}}"
+    },
+    "buttons": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "open": "Open",
+      "close": "Close"
+    },
+    "alerts": {
+      "loadError": "Error loading POIs",
+      "updateError": "Error updating POI name",
+      "deleteError": "Error deleting POI",
+      "updateSuccess": "POI information updated successfully!",
+      "updateFail": "Error updating POI.",
+      "translationSaveSuccess": "Translation saved successfully!",
+      "translationSaveFail": "Error saving translation.",
+      "englishLabelRequired": "English name is required."
+    }
+  },
+  "routeManager": {
+    "title": "Route: Stops",
+    "table": {
+      "label": "Label",
+      "lat": "Lat",
+      "lng": "Lng",
+      "order": "Order",
+      "actions": "Actions"
+    },
+    "routeStops": "stop(s) in the route",
+    "empty": "No stops. Enable Route Mode and click on the map to add stops.",
+    "dialog": {
+      "editTitle": "Edit Stop #{{n}}",
+      "info": "Stop Information",
+      "name": "Stop Name",
+      "description": "Description"
+    },
+    "buttons": {
+      "close": "Close"
+    },
+    "alerts": {
+      "loadError": "Error loading route",
+      "updateError": "Error updating stop",
+      "deleteError": "Error deleting stop",
+      "updateSuccess": "Stop information updated successfully!",
+      "updateFail": "Error updating stop."
+    }
+  },
+  "mapObjectManager": {
+    "title": "Placed Objects",
+    "table": {
+      "name": "Name",
+      "model": "3D Model",
+      "position": "Position (X,Y,Z)",
+      "rotation": "Rotation",
+      "scale": "Scale",
+      "actions": "Actions"
+    },
+    "objectsCount": "object(s) placed on the map",
+    "empty": "No 3D objects placed on the map.\nEnable \"3D objects\" mode and right-click on the map to place objects.",
+    "dialog": {
+      "placeTitle": "Place 3D Object on Map",
+      "editTitle": "Edit 3D Object on Map",
+      "fields": {
+        "modelSelect": "Select 3D Model",
+        "model": "3D Model",
+        "name": "Name on Map",
+        "namePlaceholder": "Enter object name...",
+        "posX": "X Position (Longitude)",
+        "posY": "Y Position (Latitude)",
+        "posZ": "Z Position",
+        "rotationX": "Rotation X (degrees)",
+        "rotationY": "Rotation Y (degrees)",
+        "rotationZ": "Rotation Z (degrees)",
+        "scaleX": "Scale X",
+        "scaleY": "Scale Y",
+        "scaleZ": "Scale Z",
+        "position": "Position (X,Y,Z)",
+        "rotationSection": "Rotation (degrees)",
+        "scaleSection": "Scale"
+      }
+    },
+    "buttons": {
+      "place": "Place Object",
+      "placing": "Placing...",
+      "save": "Save Changes",
+      "update": "Update",
+      "cancel": "Cancel",
+      "saving": "Saving..."
+    },
+    "confirm": {
+      "deleteObject": "Delete this 3D object from the map?"
+    },
+    "errors": {
+      "load": "Error loading placed objects",
+      "save": "Error placing object",
+      "update": "Error updating object",
+      "delete": "Error removing object"
+    }
+  },
+  "modeControls": {
+    "title": "Editing Modes",
+    "enableClick": {
+      "label": "Enable click on map (insert 3D objects)",
+      "hint": "Left click to place, right click to configure objects"
+    },
+    "objectMode": {
+      "label": "3D Objects Mode",
+      "hint": "Right click on the map to place a 3D object"
+    },
+    "routeMode": {
+      "label": "Route Mode",
+      "loading": "Loading route...",
+      "hint": "Click on the map to add stops to the tour route"
+    },
+    "poiMode": {
+      "label": "POI Mode",
+      "loading": "Loading POIs...",
+      "hint": "Click on the map to add points of interest"
+    },
+    "totemMode": {
+      "label": "Totem",
+      "loading": "Loading Totems...",
+      "hint": "Click on the map to position totems"
+    },
+    "generalHint": "Tip: Modes are exclusive. Enable one mode at a time to edit the map."
+  },
+  "envObjectsManager": {
+    "title": "3D Library",
+    "table": {
+      "name": "Name",
+      "url": "URL",
+      "format": "Format",
+      "actions": "Actions"
+    },
+    "buttons": {
+      "add": "Add 3D Object",
+      "cancel": "Cancel",
+      "create": "Create",
+      "save": "Save",
+      "saving": "Saving..."
+    },
+    "empty": "No 3D objects available. Click \"Add 3D Object\" to start.",
+    "dialog": {
+      "addTitle": "Add 3D Object",
+      "editTitle": "Edit 3D Object",
+      "name": "Name",
+      "urlDownload": "Download URL",
+      "fileUpload": "Upload 3D File",
+      "fileUploadKeep": "Upload 3D File (Leave empty to keep current file)",
+      "selectFile": "Select File",
+      "selectedFile": "Selected file: {{filename}}",
+      "supportedFormats": "Supported formats: GLB, GLTF, OBJ, FBX (max 50MB)",
+      "preview": {
+        "title": "Preview",
+        "none": "No preview available",
+        "notAvailable": "Preview not available for this format"
+      }
+    },
+    "confirm": {
+      "delete": "Are you sure you want to delete this 3D object? This action cannot be undone."
+    },
+    "errors": {
+      "load": "Error loading 3D objects",
+      "save": "Error saving 3D object",
+      "delete": "Error deleting 3D object"
+    }
+  },
+  "userManagement": {
+    "title": "User Management",
+    "button": {
+      "createUser": "➕ Create New User",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "id": "ID",
+      "username": "Username",
+      "lastname": "Lastname",
+      "firstname": "Firstname",
+      "role": "Role",
+      "actions": "Actions"
+    },
+    "errors": {
+      "fetch": "Error retrieving users",
+      "delete": "Error deleting user"
+    }
+  },
+  "mapComponent": {
+    "modes": {
+      "objectModeLegacy": "3D Objects Mode (Legacy)",
+      "objectMode": "3D Objects Mode",
+      "routeMode": "Route Mode",
+      "poiMode": "POI Mode",
+      "totemMode": "Totem Mode"
+    },
+    "viewModes": {
+      "3d": "3D",
+      "satellite": "Satellite",
+      "view3D": "3D View",
+      "viewSatellite": "Satellite View"
+    },
+    "loadingModels": "Loading 3D models..."
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "confirm": "Confirm",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "actions": "Actions",
+    "name": "Name",
+    "description": "Description",
+    "error": "Error",
+    "success": "Success"
+  },
+  "navbar": {
+    "home": "Home",
+    "profile": "Profile",
+    "users": "Users",
+    "logout": "Logout",
+    "language": "Language",
+    "userManagement": "User Management",
+    "totemManagement": "Totem Management"
+  },
+  "tourPlanner": {
+    "title": "Plan Route",
+    "route": "Route:",
+    "noTitle": "(no title)",
+    "stops": "stops",
+    "newRoute": "New route",
+    "modeOn": "Route mode: ON",
+    "modeOff": "Route mode: OFF",
+    "addStopTest": "+ Stop (test)",
+    "saving": "Saving…",
+    "saveRoute": "Save route",
+    "clearDraft": "Clear draft",
+    "stopDetails": "Selected stop details",
+    "extendedDescription": "Extended description",
+    "mediaUrl": "Media URL (image/video)",
+    "saveStop": "Save stop",
+    "close": "Close",
+    "selectRow": "Select a row to edit the stop.",
+    "error": "Error:",
+    "unsavedChanges": "Unsaved changes.",
+    "allSaved": "All saved (route #{{id}}).",
+    "moveUp": "↑ up",
+    "moveDown": "↓ down",
+    "delete": "Delete",
+    "zoom": "Zoom",
+    "empty": "No stops. Enable Route mode and click on the map, or use \"+ Stop (test)\".",
+    "table": {
+      "label": "Label",
+      "lat": "Lat",
+      "lng": "Lng",
+      "actions": "Actions"
+    },
+    "hint": {
+      "clickMap": "Click on map to add stops",
+      "addDebug": "Add a stop near map center (debug)",
+      "clearDraft": "Clear local draft (does not delete published route)"
+    },
+    "placeholder": {
+      "label": "e.g. Main entrance",
+      "description": "Text describing the stop…"
+    },
+    "status": {
+      "routeInfo": "Route: {{title}} • {{count}} stops",
+      "newRouteInfo": "New route • {{count}} stops"
+    }
+  },
+  "totemManagement": {
+    "title": "Totem Management",
+    "button": {
+      "createTotem": "Create New Totem",
+      "edit": "Edit",
+      "delete": "Delete",
+      "assign": "Assign",
+      "changeAssignment": "Change Assignment"
+    },
+    "table": {
+      "serialCode": "Serial Code",
+      "label": "Label",
+      "assignedTo": "Assigned To",
+      "environment": "Environment",
+      "position": "Position",
+      "actions": "Actions"
+    },
+    "filter": {
+      "all": "All",
+      "unassigned": "Unassigned",
+      "unpositioned": "Not Positioned"
+    },
+    "search": "Search totems...",
+    "notAssigned": "Not assigned",
+    "noTotems": "No totems found",
+    "modal": {
+      "assignTotem": "Assign Totem",
+      "changeAssignment": "Change Assignment",
+      "totem": "Totem",
+      "selectEditor": "Select Editor",
+      "noAssignment": "No assignment (revoke)",
+      "warningPositioned": "Warning: this totem is already positioned in an environment. Changing the assignment will remove the positioning.",
+      "assign": "Assign",
+      "revoke": "Revoke Assignment"
+    },
+    "confirm": {
+      "delete": "Are you sure you want to delete this totem?"
+    },
+    "alerts": {
+      "loadError": "Error loading totems",
+      "deleteError": "Error deleting totem",
+      "assignError": "Error assigning totem"
+    }
+  },
+  "totemForm": {
+    "title": {
+      "create": "Create New Totem",
+      "edit": "Edit Totem"
+    },
+    "field": {
+      "serialCode": "Serial Code",
+      "label": "Label"
+    },
+    "placeholder": {
+      "serialCode": "E.g.: ABC123XYZ0",
+      "label": "Descriptive label (optional)"
+    },
+    "helper": {
+      "serialCode": "10 uppercase alphanumeric characters. Leave empty for auto-generation."
+    },
+    "qrPreview": "QR Code Preview",
+    "info": {
+      "title": "Totem Information",
+      "assignedTo": "Assigned To",
+      "notAssigned": "Not assigned",
+      "environment": "Environment",
+      "notPositioned": "Not positioned",
+      "coordinates": "Coordinates",
+      "createdAt": "Created on"
+    },
+    "button": {
+      "createTotem": "Create Totem",
+      "saveChanges": "Save Changes"
+    },
+    "alerts": {
+      "loadError": "Error loading totem",
+      "invalidSerialCode": "Serial code must be 10 uppercase alphanumeric characters",
+      "createSuccess": "Totem created successfully! Serial code: {{serialCode}}",
+      "updateSuccess": "Totem updated successfully!",
+      "saveError": "Error saving totem"
+    }
+  },
+  "totemManager": {
+    "title": "Totem Management",
+    "availableTotems": "Available Totems",
+    "positionedTotems": "Positioned Totems",
+    "noAvailableTotems": "No totems available for this environment",
+    "noPositionedTotems": "No totems positioned in this environment",
+    "selectToPosition": "Select a totem to position",
+    "manualPosition": "Position Manually",
+    "removePosition": "Remove Position",
+    "serialCode": "Serial Code",
+    "label": "Label",
+    "coordinates": "Coordinates",
+    "qrPreview": "QR Code Preview",
+    "downloadImage": "Download Image",
+    "downloadPdf": "Download PDF",
+    "downloadAllPdf": "Export all QR codes to PDF",
+    "alerts": {
+      "loadError": "Error loading totems",
+      "positionSuccess": "Totem positioned successfully",
+      "positionError": "Error positioning totem",
+      "removeSuccess": "Position removed",
+      "removeError": "Error removing position"
+    },
+    "confirm": {
+      "removePosition": "Remove the positioning of this totem?"
+    },
+    "form": {
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "submit": "Position",
+      "cancel": "Cancel"
+    }
+  },
+  "legal": {
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy"
+  },
+  "globalLoading": {
+    "loading": "Loading...",
+    "retrying": "Reconnecting to server...",
+    "retryHint": "The server is temporarily busy. Automatic retry in progress..."
+  }
+}

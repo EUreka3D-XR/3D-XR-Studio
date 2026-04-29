@@ -1,0 +1,621 @@
+{
+  "login": {
+    "title": "Inicia sessió a SWING 3D-XR Studio",
+    "button": {
+      "egi": "Sign-in with EGI Check-in",
+      "submit": "Inicia sessió"
+    },
+    "caption": {
+      "egi": "Accés segur a través d'institucions acadèmiques i socials"
+    },
+    "divider": {
+      "or": "o"
+    },
+    "section": {
+      "traditional": "Inici de sessió tradicional"
+    },
+    "field": {
+      "username": "Usuari",
+      "password": "Contrasenya"
+    },
+    "loading": "Carregant...",
+    "errors": {
+      "egiCheckin_withMsg": "Error d'EGI Check-in: {{error}}",
+      "egiAuth": "Error durant l'autenticació d'EGI Check-in",
+      "invalidCredentials": "Credencials no vàlides"
+    }
+  },
+  "profile": {
+    "title": "Edita el Perfil",
+    "field": {
+      "username": "Usuari",
+      "firstname": "Nom",
+      "lastname": "Cognom",
+      "role": "Rol",
+      "password": {
+        "current": "Contrasenya actual",
+        "newOptional": "Nova contrasenya (opcional)"
+      }
+    },
+    "role": {
+      "admin": "Administrador",
+      "editor": "Editor",
+      "viewer": "Visualitzador"
+    },
+    "button": {
+      "saveChanges": "Desa els canvis"
+    },
+    "alerts": {
+      "needCurrentForNew": "Per canviar la contrasenya, introdueix la contrasenya actual.",
+      "updateSuccess": "Perfil actualitzat correctament!",
+      "updateError": "Error en actualitzar el perfil."
+    }
+  },
+  "userForm": {
+    "title": {
+      "edit": "Edita Usuari",
+      "create": "Crea Nou Usuari"
+    },
+    "field": {
+      "username": "Usuari",
+      "firstname": "Nom",
+      "lastname": "Cognom",
+      "role": "Rol"
+    },
+    "role": {
+      "admin": "Administrador",
+      "editor": "Editor",
+      "viewer": "Visualitzador"
+    },
+    "button": {
+      "createUser": "Crea Usuari",
+      "saveChanges": "Desa els canvis",
+      "resetPasswordDefault": "Restableix la contrasenya a \"password123\""
+    },
+    "alerts": {
+      "updateSuccess": "Usuari actualitzat correctament",
+      "createSuccess": "Usuari creat correctament (Contrasenya per defecte: password123)",
+      "saveError": "S'ha produït un error. Torna-ho a provar.",
+      "resetSuccess": "Contrasenya restablerta a \"password123\"",
+      "resetError": "Error en restablir la contrasenya. Torna-ho a provar."
+    }
+  },
+  "home": {
+    "title": "🌍 Llista d'Entorns 3D",
+    "table": {
+      "name": "Nom",
+      "coordinates": "Coordenades",
+      "objectCount": "Nombre d'Objectes",
+      "createdBy": "Creat per",
+      "actions": "Accions"
+    },
+    "button": {
+      "open": "🌍 Obre",
+      "delete": "⌫ Elimina",
+      "createEnvironment": "➕ Crea Nou Entorn"
+    },
+    "coordsLine": "Lat: {{lat}}, Long: {{long}}"
+  },
+  "environmentForm": {
+    "alert": {
+      "coords": "Coordenades: {{lng}}, {{lat}}"
+    },
+    "prompt": {
+      "poiName": "Nom del POI:"
+    },
+    "route": {
+      "stopLabel": "Aturada {{n}}"
+    },
+    "errors": {
+      "routeModeActivation": "Error en activar el mode ruta",
+      "poiCreate": "Error en crear el POI",
+      "stopUpdatePosition": "Error en actualitzar la posició de l'aturada",
+      "poiUpdatePosition": "Error en actualitzar la posició del POI"
+    }
+  },
+  "environmentBasicForm": {
+    "title": {
+      "create": "Crea Nou Entorn",
+      "edit": "Edita Entorn"
+    },
+    "loading": "Carregant...",
+    "fields": {
+      "name": "Nom de l'Entorn",
+      "longitude": "Longitud",
+      "latitude": "Latitud",
+      "surface": "Superfície (4 coordenades)",
+      "topLeft": "Superior Esquerra",
+      "topRight": "Superior Dreta",
+      "bottomLeft": "Inferior Esquerra",
+      "bottomRight": "Inferior Dreta"
+    },
+    "buttons": {
+      "create": "Crea Entorn",
+      "save": "Desa els canvis",
+      "cancel": "Cancel·la",
+      "saving": "Desant...",
+      "defineOnMap": "Defineix al Mapa",
+      "mapModeActive": "Mode Mapa Actiu"
+    },
+    "surfaceMode": {
+      "hint": "Mode actiu: Fes clic en un camp de coordenades, després fes clic al mapa per introduir les coordenades.",
+      "selectedVertex": "Vèrtex seleccionat: {{vertex}}"
+    },
+    "errors": {
+      "load": "Error en carregar les dades de l'entorn",
+      "save": "Error en desar l'entorn"
+    }
+  },
+  "poiManager": {
+    "title": "POI: Punts d'Interès",
+    "table": {
+      "name": "Nom",
+      "lat": "Lat",
+      "lng": "Lng",
+      "media": "Multimèdia",
+      "actions": "Accions"
+    },
+    "empty": "Cap POI. Activa el Mode POI i fes clic al mapa per afegir punts d'interès.",
+    "dialog": {
+      "editTitle": "Edita POI: {{label}}",
+      "info": "Informació del POI",
+      "name": "Nom del POI",
+      "description": "Descripció",
+      "descriptionPlaceholder": "Descripció detallada del POI...",
+      "saveInfo": "Desa la informació",
+      "translations": {
+        "title": "Nom i Descripció del POI",
+        "saveLanguage": "Desa {{lang}}"
+      },
+      "media": {
+        "sectionTitle": "Multimèdia ({{count}})",
+        "add": "Afegeix multimèdia",
+        "edit": "Edita multimèdia",
+        "new": "Afegeix nou multimèdia",
+        "update": "Actualitza multimèdia",
+        "cancel": "Cancel·la",
+        "title": "Títol (opcional)",
+        "titlePlaceholder": "Títol descriptiu del multimèdia",
+        "url": "URL",
+        "urlPlaceholder": "https://...",
+        "urlOptional": "URL (opcional, ignora si has pujat un fitxer)",
+        "youtubePlaceholder": "https://www.youtube.com/watch?v=...",
+        "youtubeHelper": "Només s'admeten URLs de YouTube",
+        "optionalWithFile": "Camp opcional si has pujat un fitxer",
+        "imagePlaceholder": "https://exemple.com/imatge.jpg",
+        "audioPlaceholder": "https://exemple.com/audio.mp3",
+        "language": "Idioma",
+        "content": "Contingut de Text",
+        "contentPlaceholder": "Introdueix el contingut textual...",
+        "contentHelper": "Contingut principal per al tipus de media 'Text'",
+        "uploadOrUrl": "Puja imatge o introdueix URL",
+        "uploadAudioOrUrl": "Puja fitxer d'àudio o introdueix URL",
+        "chooseFile": "Tria Fitxer",
+        "fileSelected": "Fitxer seleccionat. Deixa el camp URL buit per utilitzar el fitxer pujat.",
+        "noContent": "Sense contingut",
+        "audioNotSupported": "El teu navegador no suporta l'element d'àudio.",
+        "imageNotAvailable": "Imatge no disponible",
+        "type": {
+          "label": "Tipus",
+          "image": "Imatge",
+          "video": "Vídeo (YouTube)",
+          "audio": "Àudio",
+          "text": "Text",
+          "link": "Enllaç",
+          "other": "Altres"
+        },
+        "uploading": "Pujant...",
+        "processing": "Processant fitxer al servidor...",
+        "noneTitle": "Cap multimèdia associat a aquest POI",
+        "noneSubtitle": "Afegeix imatges, vídeos de YouTube, àudio o contingut textual per enriquir l'experiència"
+      }
+    },
+    "confirm": {
+      "deletePoi": "Eliminar aquest POI?",
+      "deleteMedia": "Eliminar aquest multimèdia?"
+    },
+    "errors": {
+      "maxMedia": "Límit de multimèdia assolit",
+      "addMedia": "Error en afegir multimèdia al POI",
+      "updateMedia": "Error en actualitzar multimèdia",
+      "deleteMedia": "Error en eliminar multimèdia",
+      "duplicateTypeLang": "Ja existeix un mitjà de tipus {{type}} per a l'idioma {{lang}}"
+    },
+    "buttons": {
+      "edit": "Edita",
+      "delete": "Elimina",
+      "open": "Obre",
+      "close": "Tanca"
+    },
+    "alerts": {
+      "loadError": "Error en carregar els POI",
+      "updateError": "Error en actualitzar el nom del POI",
+      "deleteError": "Error en eliminar el POI",
+      "updateSuccess": "Informació del POI actualitzada correctament!",
+      "updateFail": "Error en actualitzar el POI.",
+      "translationSaveSuccess": "Traducció desada correctament!",
+      "translationSaveFail": "Error en desar la traducció.",
+      "englishLabelRequired": "El nom en anglès és obligatori."
+    }
+  },
+  "routeManager": {
+    "title": "Ruta: Aturades",
+    "table": {
+      "label": "Etiqueta",
+      "lat": "Lat",
+      "lng": "Lng",
+      "order": "Ordre",
+      "actions": "Accions"
+    },
+    "routeStops": "aturada(es) a la ruta",
+    "empty": "Cap aturada. Activa el Mode Ruta i fes clic al mapa per afegir aturades.",
+    "dialog": {
+      "editTitle": "Edita Aturada #{{n}}",
+      "info": "Informació de l'Aturada",
+      "name": "Nom de l'Aturada",
+      "description": "Descripció"
+    },
+    "buttons": {
+      "close": "Tanca"
+    },
+    "alerts": {
+      "loadError": "Error en carregar la ruta",
+      "updateError": "Error en actualitzar l'aturada",
+      "deleteError": "Error en eliminar l'aturada",
+      "updateSuccess": "Informació de l'aturada actualitzada correctament!",
+      "updateFail": "Error en actualitzar l'aturada."
+    }
+  },
+  "mapObjectManager": {
+    "title": "Objectes posicionats",
+    "table": {
+      "name": "Nom",
+      "model": "Model 3D",
+      "position": "Posició (X,Y,Z)",
+      "rotation": "Rotació",
+      "scale": "Escala",
+      "actions": "Accions"
+    },
+    "objectsCount": "objecte(s) col·locats al mapa",
+    "empty": "Cap objecte 3D col·locat al mapa.\nActiva el mode \"objectes 3D\" i fes clic dret al mapa per col·locar objectes.",
+    "dialog": {
+      "placeTitle": "Col·loca Objecte 3D al Mapa",
+      "editTitle": "Edita Objecte 3D al Mapa",
+      "fields": {
+        "modelSelect": "Selecciona Model 3D",
+        "model": "Model 3D",
+        "name": "Nom al Mapa",
+        "namePlaceholder": "Introdueix nom de l'objecte...",
+        "posX": "Posició X (Longitud)",
+        "posY": "Posició Y (Latitud)",
+        "posZ": "Posició Z",
+        "rotationX": "Rotació X (graus)",
+        "rotationY": "Rotació Y (graus)",
+        "rotationZ": "Rotació Z (graus)",
+        "scaleX": "Escala X",
+        "scaleY": "Escala Y",
+        "scaleZ": "Escala Z",
+        "position": "Posició (X,Y,Z)",
+        "rotationSection": "Rotació (graus)",
+        "scaleSection": "Escala"
+      }
+    },
+    "buttons": {
+      "place": "Col·loca Objecte",
+      "placing": "Col·locant...",
+      "save": "Desa els canvis",
+      "update": "Actualitza",
+      "cancel": "Cancel·la",
+      "saving": "Desant..."
+    },
+    "confirm": {
+      "deleteObject": "Eliminar aquest objecte 3D del mapa?"
+    },
+    "errors": {
+      "load": "Error en carregar els objectes",
+      "save": "Error en col·locar l'objecte",
+      "update": "Error en actualitzar l'objecte",
+      "delete": "Error en eliminar l'objecte"
+    }
+  },
+  "modeControls": {
+    "title": "Modes d'Edició",
+    "enableClick": {
+      "label": "Habilita clic al mapa (inserir objectes 3D)",
+      "hint": "Clic esquerre per col·locar, clic dret per configurar objectes"
+    },
+    "objectMode": {
+      "label": "Mode Objectes 3D",
+      "hint": "Fes clic dret al mapa per col·locar un objecte 3D"
+    },
+    "routeMode": {
+      "label": "Mode Ruta",
+      "loading": "Carregant ruta...",
+      "hint": "Fes clic al mapa per afegir aturades a la ruta turística"
+    },
+    "poiMode": {
+      "label": "Mode POI",
+      "loading": "Carregant POI...",
+      "hint": "Fes clic al mapa per afegir punts d'interès"
+    },
+    "totemMode": {
+      "label": "Totem",
+      "loading": "Carregant Totems...",
+      "hint": "Fes clic al mapa per posicionar totems"
+    },
+    "generalHint": "Consell: Els modes són exclusius. Activa un mode a la vegada per editar el mapa."
+  },
+  "envObjectsManager": {
+    "title": "Biblioteca 3D",
+    "table": {
+      "name": "Nom",
+      "url": "URL",
+      "format": "Format",
+      "actions": "Accions"
+    },
+    "buttons": {
+      "add": "Afegeix objecte 3D",
+      "cancel": "Cancel·la",
+      "create": "Crea",
+      "save": "Desa",
+      "saving": "Desant..."
+    },
+    "empty": "Cap objecte 3D disponible. Fes clic a \"Afegeix objecte 3D\" per començar.",
+    "dialog": {
+      "addTitle": "Afegeix objecte 3D",
+      "editTitle": "Edita objecte 3D",
+      "name": "Nom",
+      "urlDownload": "URL de Descàrrega",
+      "fileUpload": "Puja fitxer 3D",
+      "fileUploadKeep": "Puja fitxer 3D (Deixa buit per mantenir el fitxer actual)",
+      "selectFile": "Selecciona fitxer",
+      "selectedFile": "Fitxer seleccionat: {{filename}}",
+      "supportedFormats": "Formats admesos: GLB, GLTF, OBJ, FBX (màx 50MB)",
+      "preview": {
+        "title": "Previsualització",
+        "none": "Cap previsualització disponible",
+        "notAvailable": "Previsualització no disponible per a aquest format"
+      }
+    },
+    "confirm": {
+      "delete": "Segur que vols eliminar aquest objecte 3D? Aquesta acció no es pot desfer."
+    },
+    "errors": {
+      "load": "Error en carregar els objectes 3D",
+      "save": "Error en desar l'objecte 3D",
+      "delete": "Error en eliminar l'objecte 3D"
+    }
+  },
+  "userManagement": {
+    "title": "Gestió d'Usuaris",
+    "button": {
+      "createUser": "➕ Crea Nou Usuari",
+      "edit": "Edita",
+      "delete": "Elimina"
+    },
+    "table": {
+      "id": "ID",
+      "username": "Usuari",
+      "lastname": "Cognom",
+      "firstname": "Nom",
+      "role": "Rol",
+      "actions": "Accions"
+    },
+    "errors": {
+      "fetch": "Error en recuperar usuaris",
+      "delete": "Error en eliminar usuari"
+    }
+  },
+  "mapComponent": {
+    "modes": {
+      "objectModeLegacy": "Mode Objectes 3D (Legacy)",
+      "objectMode": "Mode Objectes 3D",
+      "routeMode": "Mode Ruta",
+      "poiMode": "Mode POI",
+      "totemMode": "Mode Totem"
+    },
+    "viewModes": {
+      "3d": "3D",
+      "satellite": "Satèl·lit",
+      "view3D": "Vista 3D",
+      "viewSatellite": "Vista Satèl·lit"
+    },
+    "loadingModels": "Carregant models 3D..."
+  },
+  "common": {
+    "loading": "Carregant...",
+    "save": "Desa",
+    "cancel": "Cancel·la",
+    "delete": "Elimina",
+    "edit": "Edita",
+    "create": "Crea",
+    "confirm": "Confirma",
+    "close": "Tanca",
+    "yes": "Sí",
+    "no": "No",
+    "actions": "Accions",
+    "name": "Nom",
+    "description": "Descripció",
+    "error": "Error",
+    "success": "Èxit"
+  },
+  "navbar": {
+    "home": "Inici",
+    "profile": "Perfil",
+    "users": "Usuaris",
+    "logout": "Tanca sessió",
+    "language": "Idioma",
+    "userManagement": "Gestió d'Usuaris",
+    "totemManagement": "Gestió de Totems"
+  },
+  "tourPlanner": {
+    "title": "Planifica Ruta",
+    "route": "Ruta:",
+    "noTitle": "(sense títol)",
+    "stops": "parades",
+    "newRoute": "Nova ruta",
+    "modeOn": "Mode ruta: ON",
+    "modeOff": "Mode ruta: OFF",
+    "addStopTest": "+ Parada (test)",
+    "saving": "Desant…",
+    "saveRoute": "Desa ruta",
+    "clearDraft": "Buida esborrany",
+    "stopDetails": "Detalls de la parada seleccionada",
+    "extendedDescription": "Descripció estesa",
+    "mediaUrl": "URL Media (imatge/vídeo)",
+    "saveStop": "Desa parada",
+    "close": "Tanca",
+    "selectRow": "Selecciona una fila per editar la parada.",
+    "error": "Error:",
+    "unsavedChanges": "Canvis no desats.",
+    "allSaved": "Tot desat (ruta #{{id}}).",
+    "moveUp": "↑ amunt",
+    "moveDown": "↓ avall",
+    "delete": "Elimina",
+    "zoom": "Zoom",
+    "empty": "Sense parades. Activa el Mode ruta i fes clic al mapa, o usa \"+ Parada (test)\".",
+    "table": {
+      "label": "Etiqueta",
+      "lat": "Lat",
+      "lng": "Lng",
+      "actions": "Accions"
+    },
+    "hint": {
+      "clickMap": "Clic al mapa per afegir parades",
+      "addDebug": "Afegeix una parada prop del centre del mapa (debug)",
+      "clearDraft": "Neteja l'esborrany local (no elimina la ruta publicada)"
+    },
+    "placeholder": {
+      "label": "ex. Entrada principal",
+      "description": "Text que descriu la parada…"
+    },
+    "status": {
+      "routeInfo": "Ruta: {{title}} • {{count}} parades",
+      "newRouteInfo": "Nova ruta • {{count}} parades"
+    }
+  },
+  "totemManagement": {
+    "title": "Gestió de Totems",
+    "button": {
+      "createTotem": "Crea Nou Totem",
+      "edit": "Edita",
+      "delete": "Elimina",
+      "assign": "Assigna",
+      "changeAssignment": "Canvia Assignació"
+    },
+    "table": {
+      "serialCode": "Codi Sèrie",
+      "label": "Etiqueta",
+      "assignedTo": "Assignat A",
+      "environment": "Entorn",
+      "position": "Posició",
+      "actions": "Accions"
+    },
+    "filter": {
+      "all": "Tots",
+      "unassigned": "Sense Assignar",
+      "unpositioned": "Sense Posicionar"
+    },
+    "search": "Cerca totems...",
+    "notAssigned": "Sense assignar",
+    "noTotems": "No s'han trobat totems",
+    "modal": {
+      "assignTotem": "Assigna Totem",
+      "changeAssignment": "Canvia Assignació",
+      "totem": "Totem",
+      "selectEditor": "Selecciona Editor",
+      "noAssignment": "Sense assignació (revocar)",
+      "warningPositioned": "Atenció: aquest totem ja està posicionat en un entorn. En canviar l'assignació, s'eliminarà el posicionament.",
+      "assign": "Assigna",
+      "revoke": "Revoca Assignació"
+    },
+    "confirm": {
+      "delete": "Segur que vols eliminar aquest totem?"
+    },
+    "alerts": {
+      "loadError": "Error en carregar els totems",
+      "deleteError": "Error en eliminar el totem",
+      "assignError": "Error en assignar el totem"
+    }
+  },
+  "totemForm": {
+    "title": {
+      "create": "Crea Nou Totem",
+      "edit": "Edita Totem"
+    },
+    "field": {
+      "serialCode": "Codi Sèrie",
+      "label": "Etiqueta"
+    },
+    "placeholder": {
+      "serialCode": "Ex: ABC123XYZ0",
+      "label": "Etiqueta descriptiva (opcional)"
+    },
+    "helper": {
+      "serialCode": "10 caràcters alfanumèrics majúscules. Deixa buit per a generació automàtica."
+    },
+    "qrPreview": "Previsualització Codi QR",
+    "info": {
+      "title": "Informació del Totem",
+      "assignedTo": "Assignat A",
+      "notAssigned": "Sense assignar",
+      "environment": "Entorn",
+      "notPositioned": "Sense posicionar",
+      "coordinates": "Coordenades",
+      "createdAt": "Creat el"
+    },
+    "button": {
+      "createTotem": "Crea Totem",
+      "saveChanges": "Desa Canvis"
+    },
+    "alerts": {
+      "loadError": "Error en carregar el totem",
+      "invalidSerialCode": "El codi sèrie ha de tenir 10 caràcters alfanumèrics majúscules",
+      "createSuccess": "Totem creat amb èxit! Codi sèrie: {{serialCode}}",
+      "updateSuccess": "Totem actualitzat amb èxit!",
+      "saveError": "Error en desar el totem"
+    }
+  },
+  "totemManager": {
+    "title": "Gestió de Totems",
+    "availableTotems": "Totems Disponibles",
+    "positionedTotems": "Totems Posicionats",
+    "noAvailableTotems": "Cap totem disponible per a aquest entorn",
+    "noPositionedTotems": "Cap totem posicionat en aquest entorn",
+    "selectToPosition": "Selecciona un totem per posicionar",
+    "manualPosition": "Posiciona Manualment",
+    "removePosition": "Elimina Posició",
+    "serialCode": "Codi Sèrie",
+    "label": "Etiqueta",
+    "coordinates": "Coordenades",
+    "qrPreview": "Previsualització Codi QR",
+    "downloadImage": "Descarregar Imatge",
+    "downloadPdf": "Descarregar PDF",
+    "downloadAllPdf": "Exportar tots els QR en PDF",
+    "alerts": {
+      "loadError": "Error en carregar els totems",
+      "positionSuccess": "Totem posicionat amb èxit",
+      "positionError": "Error en posicionar el totem",
+      "removeSuccess": "Posició eliminada",
+      "removeError": "Error en eliminar la posició"
+    },
+    "confirm": {
+      "removePosition": "Eliminar el posicionament d'aquest totem?"
+    },
+    "form": {
+      "latitude": "Latitud",
+      "longitude": "Longitud",
+      "submit": "Posiciona",
+      "cancel": "Cancel·la"
+    }
+  },
+  "legal": {
+    "terms": "Termes d'Ús",
+    "privacy": "Política de Privacitat"
+  },
+  "globalLoading": {
+    "loading": "Carregant...",
+    "retrying": "Reconnectant al servidor...",
+    "retryHint": "El servidor està temporalment ocupat. Reintent automàtic en curs..."
+  }
+}

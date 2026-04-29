@@ -1,0 +1,291 @@
+{
+  "login": {
+    "title": "Accedi a SWING 3D-XR Studio",
+    "button": {
+      "egi": "Accedi con EGI Check-in",
+      "submit": "Login"
+    },
+    "caption": {
+      "egi": "Accesso sicuro tramite istituzioni accademiche e sociali"
+    },
+    "divider": {
+      "or": "oppure"
+    },
+    "section": {
+      "traditional": "Login Tradizionale"
+    },
+    "field": {
+      "username": "Username",
+      "password": "Password"
+    },
+    "loading": "Caricamento...",
+    "errors": {
+    "egiCheckin_withMsg": "Errore EGI Check-in: {{error}}",
+    "egiAuth": "Errore durante l'autenticazione EGI Check-in",
+    "invalidCredentials": "Credenziali non valide"
+  }
+  },
+  "profile": {
+    "title": "Modifica Profilo",
+    "field": {
+      "username": "Username",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "role": "Ruolo",
+      "password": {
+        "current": "Password Attuale",
+        "newOptional": "Nuova Password (facoltativa)"
+      }
+    },
+    "role": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "button": {
+      "saveChanges": "Salva Modifiche"
+    },
+    "alerts": {
+      "needCurrentForNew": "Per modificare la password, inserisci la password attuale.",
+      "updateSuccess": "Profilo aggiornato con successo!",
+      "updateError": "Errore nell'aggiornamento del profilo."
+    }
+  },
+  "userForm": {
+    "title": {
+      "edit": "Modifica Utente",
+      "create": "Crea Nuovo Utente"
+    },
+    "field": {
+      "username": "Username",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "role": "Ruolo"
+    },
+    "role": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "button": {
+      "createUser": "Crea Utente",
+      "saveChanges": "Salva Modifiche",
+      "resetPasswordDefault": "Resetta Password a \"password123\""
+    },
+    "alerts": {
+      "updateSuccess": "Utente aggiornato con successo",
+      "createSuccess": "Utente creato con successo (Password di default: password123)",
+      "saveError": "Si è verificato un errore. Riprova.",
+      "resetSuccess": "Password resettata a \"password123\"",
+      "resetError": "Errore nel reset della password. Riprova."
+    }
+  },
+  "home": {
+    "title": "🌍 Lista degli Ambienti 3D",
+    "table": {
+      "name": "Nome",
+      "coordinates": "Coordinate",
+      "objectCount": "N. Oggetti",
+      "createdBy": "Creato Da",
+      "actions": "Azioni"
+    },
+    "button": {
+      "open": "🌍 Apri",
+      "delete": "❌ Elimina",
+      "createEnvironment": "➕ Crea Nuovo Ambiente"
+    },
+    "coordsLine": "Lat: {{lat}}, Long: {{long}}"
+  },  
+  "environmentForm": {
+    "alert": {
+      "coords": "Coordinate: {{lng}}, {{lat}}"
+    },
+    "prompt": {
+      "poiName": "Nome del POI:"
+    },
+    "route": {
+      "stopLabel": "Tappa {{n}}"
+    },
+    "errors": {
+      "routeModeActivation": "Errore nell'attivazione modalità percorso",
+      "poiCreate": "Errore creazione POI",
+      "stopUpdatePosition": "Errore aggiornamento posizione tappa",
+      "poiUpdatePosition": "Errore nell'aggiornamento della posizione del POI"
+    }
+  },
+   "environmentBasicForm": {
+    "title": {
+      "create": "Crea Nuovo Ambiente",
+      "edit": "Modifica Ambiente"
+    },
+    "loading": "Caricamento...",
+    "fields": {
+      "name": "Nome Ambiente",
+      "longitude": "Longitudine",
+      "latitude": "Latitudine",
+      "surface": "Superficie (4 coordinate)",
+      "topLeft": "Top Left",
+      "topRight": "Top Right",
+      "bottomLeft": "Bottom Left",
+      "bottomRight": "Bottom Right"
+    },
+    "buttons": {
+      "create": "Crea Ambiente",
+      "save": "Salva Modifiche",
+      "cancel": "Annulla",
+      "saving": "Salvataggio..."
+    },
+    "errors": {
+      "load": "Errore nel caricamento dei dati dell'ambiente",
+      "save": "Errore nel salvataggio dell'ambiente"
+    }
+  },
+  "poiManager": {
+    "title": "POI: Punti di Interesse",
+    "table": {
+      "name": "Nome",
+      "lat": "Lat",
+      "lng": "Lng",
+      "media": "Media",
+      "actions": "Azioni"
+    },
+    "empty": "Nessun POI. Attiva la Modalità POI e clicca sulla mappa per aggiungere punti di interesse.",
+    "dialog": {
+      "editTitle": "Modifica POI: {{label}}",
+      "info": "Informazioni POI",
+      "name": "Nome POI",
+      "description": "Descrizione"
+    },
+    "alerts": {
+      "loadError": "Errore nel caricamento dei POI",
+      "updateError": "Errore nell'aggiornamento del nome del POI",
+      "deleteError": "Errore nell'eliminazione del POI",
+      "updateSuccess": "Informazioni POI aggiornate con successo!",
+      "updateFail": "Errore nell'aggiornamento del POI."
+    }
+  },
+  "routeManager": {
+    "title": "Percorso: Tappe",
+    "table": {
+      "label": "Label",
+      "lat": "Lat",
+      "lng": "Lng",
+      "order": "Ordine",
+      "actions": "Azioni"
+    },
+    "empty": "Nessuna tappa. Attiva la Modalità Percorso e clicca sulla mappa per aggiungere tappe.",
+    "dialog": {
+      "editTitle": "Modifica Tappa #{{n}}",
+      "info": "Informazioni Tappa",
+      "name": "Nome Tappa",
+      "description": "Descrizione"
+    },
+    "alerts": {
+      "loadError": "Errore nel caricamento del percorso",
+      "updateError": "Errore nell'aggiornamento della tappa",
+      "deleteError": "Errore nell'eliminazione della tappa",
+      "updateSuccess": "Informazioni tappa aggiornate con successo!",
+      "updateFail": "Errore nell'aggiornamento della tappa."
+    }
+  },
+  "mapObjectManager": {
+    "title": "Oggetti 3D posizionati sulla mappa",
+    "table": {
+      "name": "Nome",
+      "model": "Modello 3D",
+      "position": "Posizione (X,Y,Z)",
+      "rotation": "Rotazione",
+      "scale": "Scala",
+      "actions": "Azioni"
+    },
+    "empty": "Nessun oggetto 3D posizionato sulla mappa.\nAttiva la modalità \"oggetti 3D\" e clicca con il tasto destro sulla mappa per posizionare oggetti.",
+    "dialog": {
+      "placeTitle": "Posiziona Oggetto 3D sulla Mappa",
+      "editTitle": "Modifica Oggetto 3D sulla Mappa",
+      "fields": {
+        "model": "Modello 3D",
+        "name": "Nome sulla Mappa",
+        "posX": "Posizione X (Longitudine)",
+        "posY": "Posizione Y (Latitudine)",
+        "posZ": "Posizione Z"
+      }
+    },
+    "errors": {
+      "load": "Errore nel caricamento degli oggetti posizionati sulla mappa",
+      "save": "Errore nel posizionamento dell'oggetto sulla mappa",
+      "update": "Errore nell'aggiornamento dell'oggetto",
+      "delete": "Errore nella rimozione dell'oggetto dalla mappa"
+    }
+  },
+  "modeControls": {
+    "title": "Modalità di Editing",
+    "enableClick": {
+      "label": "Abilita click sulla mappa (inserimento oggetti 3D)",
+      "hint": "Clic sinistro per posizionare, clic destro per configurare oggetti 3D"
+    },
+    "objectMode": {
+      "label": "Modalità Oggetti 3D",
+      "hint": "Clic destro sulla mappa per posizionare un oggetto 3D"
+    },
+    "routeMode": {
+      "label": "Modalità Percorso",
+      "loading": "Caricamento percorso...",
+      "hint": "Clicca sulla mappa per aggiungere tappe al percorso turistico"
+    },
+    "poiMode": {
+      "label": "Modalità POI",
+      "loading": "Caricamento POI...",
+      "hint": "Clicca sulla mappa per aggiungere punti di interesse"
+    },
+    "generalHint": "Suggerimento: Le modalità sono esclusive. Attiva una modalità alla volta per modificare la mappa."
+  },
+  "envObjectsManager": {
+    "title": "Elenco elementi 3D disponibili",
+    "table": {
+      "name": "Nome",
+      "url": "URL",
+      "format": "Formato",
+      "actions": "Azioni"
+    },
+    "buttons": {
+      "add": "Aggiungi oggetto 3D"
+    },
+    "empty": "Nessun oggetto 3D disponibile. Clicca su \"Aggiungi oggetto 3D\" per iniziare.",
+    "dialog": {
+      "addTitle": "Aggiungi elemento 3D",
+      "editTitle": "Modifica elemento 3D",
+      "name": "Nome",
+      "urlDownload": "URL Download",
+      "fileUpload": "Carica file 3D",
+      "preview": {
+        "none": "Nessuna anteprima disponibile",
+        "notAvailable": "Anteprima non disponibile per questo formato"
+      }
+    },
+    "errors": {
+      "load": "Errore nel caricamento degli oggetti 3D disponibili",
+      "save": "Errore nel salvataggio dell'oggetto 3D",
+      "delete": "Errore nell'eliminazione dell'oggetto 3D"
+    }
+  },
+  "userManagement": {
+    "title": "Gestione Utenti",
+    "button": {
+      "createUser": "➕ Crea Nuovo Utente",
+      "edit": "Modifica",
+      "delete": "Elimina"
+    },
+    "table": {
+      "id": "ID",
+      "username": "Username",
+      "lastname": "Lastname",
+      "firstname": "Firstname",
+      "role": "Ruolo",
+      "actions": "Azioni"
+    },
+    "errors": {
+      "fetch": "Errore nel recupero degli utenti",
+      "delete": "Errore nella cancellazione dell'utente"
+    }
+  }
+}
