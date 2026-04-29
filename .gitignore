@@ -1,6 +1,9 @@
 # Other projects (separate repo)
 ai3dbuilder/
 
+# Local docs (not tracked)
+docs/
+
 # Dependencies
 node_modules/
 
