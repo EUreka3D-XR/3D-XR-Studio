@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 5452135ca02ce6d418adb0a3bcab762a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 576445698048
+    m_Localized: Fais attention en utilisant le mode AR !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280771153055744
+    m_Localized: SCANNE LE QR CODE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 351817185054720
+    m_Localized: "L'autorisation de la cam\xE9ra est n\xE9cessaire pour utiliser
+      l'application"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342219446865920
+    m_Localized: Place le smartphone sur le support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342567188221952
+    m_Localized: Fait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1367339708141568
+    m_Localized: Visiteur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1368158381756416
+    m_Localized: Admin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3909922334396416
+    m_Localized: Retour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3910078949707776
+    m_Localized: "Acc\xE9der"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3911340575379456
+    m_Localized: Username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3911512021749760
+    m_Localized: Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3962666160181248
+    m_Localized: Erreur de connexion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535344593227776
+    m_Localized: Non
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535317976174592
+    m_Localized: Oui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535227333070848
+    m_Localized: "\xCAtes-vous s\xFBr de vouloir quitter et revenir au mode de scan
+      du QR ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12688668617035776
+    m_Localized: Nouveau QR Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14780515401289728
+    m_Localized: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14780980390219776
+    m_Localized: "Sauvegarde r\xE9ussie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14781018034098176
+    m_Localized: "\xC9chec de la sauvegarde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14781042159734784
+    m_Localized: "Chargement r\xE9ussi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14781059968749568
+    m_Localized: "\xC9chec du chargement"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24629455776862208
+    m_Localized: Chargement...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62717575919259648
+    m_Localized: Enregistrement en cours
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782748029665280
+    m_Localized: "Nom d\u2019utilisateur ou mot de passe incorrect."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782750026153984
+    m_Localized: "Erreur du serveur. Veuillez r\xE9essayer plus tard."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67788022039789568
+    m_Localized: "Entrez le nom d\u2019utilisateur et le mot de passe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782757169053696
+    m_Localized: "Impossible de contacter le serveur. V\xE9rifiez la connexion."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782759383646208
+    m_Localized: 'Erreur : {error.message} (Code : {error.statusCode})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782762000891904
+    m_Localized: "\xC9chec de la connexion : jeton non re\xE7u."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782765255671808
+    m_Localized: "Acc\xE8s refus\xE9 : votre r\xF4le est \xAB {data.role} \xBB, mais
+      \xAB admin \xBB ou \xAB editor \xBB est requis."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80744581483155456
+    m_Localized: "T\xE9l\xE9chargement et chargement"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

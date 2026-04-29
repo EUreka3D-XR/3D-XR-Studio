@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: 5452135ca02ce6d418adb0a3bcab762a
+  m_Entries:
+  - m_Id: 576445698048
+    m_Key: BeCareful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280771153055744
+    m_Key: QRCodeReader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 351817185054720
+    m_Key: CameraPermissionDenied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342219446865920
+    m_Key: SmartphoneStand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342567188221952
+    m_Key: Done!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1367339708141568
+    m_Key: Visitor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1368158381756416
+    m_Key: Admin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3909922334396416
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3910078949707776
+    m_Key: Sign In
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3911340575379456
+    m_Key: Username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3911512021749760
+    m_Key: Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3962666160181248
+    m_Key: Login Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535227333070848
+    m_Key: ExitQR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535317976174592
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535344593227776
+    m_Key: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12688668617035776
+    m_Key: NewQRCode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14780515401289728
+    m_Key: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14780980390219776
+    m_Key: SaveSuccess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14781018034098176
+    m_Key: SaveFail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62717575919259648
+    m_Key: SavingProcess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14781042159734784
+    m_Key: LoadSuccess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14781059968749568
+    m_Key: LoadFail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24629455776862208
+    m_Key: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782748029665280
+    m_Key: 401
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782750026153984
+    m_Key: 500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782757169053696
+    m_Key: 0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782759383646208
+    m_Key: Default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782762000891904
+    m_Key: "Error1\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67782765255671808
+    m_Key: Error2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67788022039789568
+    m_Key: ErrorInitial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80744581483155456
+    m_Key: DownloadAndLoading
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 75383074161426518
+  references:
+    version: 2
+    RefIds:
+    - rid: 75383074161426518
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1753371882758
